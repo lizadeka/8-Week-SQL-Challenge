@@ -35,6 +35,7 @@ Each case study explores real-world business scenarios and helps practice concep
 ## About Me  
 👋 Hi, I'm Liza Deka — a data enthusiast.  
    I enjoy building projects, analyzing real-world data, and sharing insights through GitHub and YouTube. 
+   
   📬 Let’s Connect: <a href="https://www.linkedin.com/in/liza-deka-869473369/">LinkedIn</a>
 
 
