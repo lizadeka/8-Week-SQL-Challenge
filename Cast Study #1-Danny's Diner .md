@@ -1,3 +1,5 @@
+<img width="715" height="716" alt="image" src="https://github.com/user-attachments/assets/a7f40169-693c-4042-b09f-990459f1024e" />
+
 ## 📌 Introduction
 
 Danny is a big fan of Japanese food, and in early 2021 he decided to open a small restaurant, Danny’s Diner, serving his three favorite dishes: sushi, curry, and ramen.
