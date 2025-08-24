@@ -4,6 +4,7 @@
 
 This repository contains my solutions to the **[8 Weeks SQL Challenge](https://8weeksqlchallenge.com/)** by Danny Ma.  
 This challenge consists of 8 case studies designed to improve SQL problem-solving and analytical skills.  
+
 ---
 
 Each case study explores real-world business scenarios and helps practice concepts like:  
@@ -18,14 +19,7 @@ Each case study explores real-world business scenarios and helps practice concep
 
 ## 📂 Repository Structure
 
-- **Case Study #1 - Danny's Diner**  
-  [Case Study #1 - Danny's Diner](Case%20Study%20%231%20-%20Danny's%20Diner/README.md)
-
-- **Case Study #2 - Pizza Runner**  
-  Covers delivery analysis, performance metrics, and operational insights.  
-
-- **Case Study #3 - Foodie-Fi**  
-  Subscription-based business model analysis.  
+- [Case Study #1 - Danny's Diner]([Case%20Study%20%231%20-%20Danny's%20Diner/README.md](https://github.com/lizadeka/8-Week-SQL-Challenge/blob/main/Cast%20Study%20%231-Danny's%20Diner%20.md))
 
 - *(More case studies will be added as I progress)*  
 
