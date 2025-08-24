@@ -220,3 +220,13 @@ order by points desc
 <img width="181" height="82" alt="image" src="https://github.com/user-attachments/assets/c4fef7d4-f54d-410d-92ba-7aedb913e1b6" />
 
 
+## 📌 Key Insights
+
+- Customer spending varies a lot - Danny can expand the customer loyalty program.
+- Tracking how often each customers visit can help Danny spot regular ones.
+- The first item ordered by each customer can be promoted more.
+- The most popular item was ramen and identifying it can help in promotions and pricing decisions.
+- Identifying each customer's favourite food item can help in offering discounts on days with lower sales.
+- Comparing purchases before and after customers joined the loyalty program helps measure its impact.
+- A simple point system encourages spending a little more and can encourage repeat visits.
+- Offering double points during the first 7 days after sign-up creates excitement and boosts early engagement.
