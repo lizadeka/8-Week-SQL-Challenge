@@ -27,6 +27,7 @@ My Solutions →
 ---
 
 ### 📌 Case Study #2 - Pizza Runner  
+**Business Context**: An online pizza delivery startup wants to clean data, analyze orders, and evaluate delivery performance.
 **Concepts Covered**: Data Cleaning, String Manipulation, Recursive CTEs, Aggregations  
 - Clean messy order & delivery data  
 - Track pizza orders and deliveries  
