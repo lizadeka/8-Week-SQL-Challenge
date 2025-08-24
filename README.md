@@ -10,18 +10,12 @@ This challenge consists of 8 case studies designed to improve SQL problem-solvin
 Each case study explores real-world business scenarios and helps practice concepts like:  
 - Data exploration  
 - Joins & aggregations  
-- Window functions  
+- Window functions and Ranking
 - Subqueries & CTEs  
 - Temporary tables & views  
-- Advanced SQL concepts  
-
----
-
-## 📂 Repository Structure
-
-- [Case Study #1 - Danny's Diner](Case%20Study%20%231-Danny's%20Diner.md)
-
-- *(More case studies will be added as I progress)*  
+- Case statements and conditional logic
+- Text Functions
+- Date & Time Manipulations
 
 ---
 
