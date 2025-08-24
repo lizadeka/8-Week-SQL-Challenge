@@ -27,17 +27,14 @@ Each case study explores real-world business scenarios and helps practice concep
 ---
 
 ## 🛠️ Tech Stack
-- **SQL** (MySQL / PostgreSQL)  
+- **SQL** (MySQL)  
 - GitHub for version control  
 
 ---
 
-✨ This repository is part of my data analytics & SQL learning journey.  
+## About Me  
+👋 Hi, I'm Liza Deka — a data enthusiast.  
+   I enjoy building projects, analyzing real-world data, and sharing insights through GitHub and YouTube. 
+  📬 Let’s Connect: <a href="https://www.linkedin.com/in/liza-deka-869473369/">LinkedIn</a>
 
----
-
-## 📖 How to Use  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/8-weeks-sql-challenge.git
 
