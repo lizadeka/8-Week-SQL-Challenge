@@ -40,7 +40,7 @@ group by s.customer_id
 ```
 
 <img width="201" height="93" alt="image" src="https://github.com/user-attachments/assets/8c9e61a2-d531-4023-b7be-9802069cf104" />
-
+<br>
 - How many days has each customer visited the restaurant?
 
 ```sql
