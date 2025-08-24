@@ -1,12 +1,27 @@
-## Introduction
+📌 Introduction
 
-Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
-Danny’s Diner is in need of your assistance to help the restaurant stay afloat - the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
+Danny is a big fan of Japanese food, and in early 2021 he decided to open a small restaurant, Danny’s Diner, serving his three favorite dishes: sushi, curry, and ramen.
+The diner has been running for a few months and has collected some basic sales and customer data. However, Danny is unsure how to interpret this data to improve his business.
 
-## Problem Statement
+📌 Problem Statement
 
-Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. Having this deeper connection with his customers will help him deliver a better and more personalised experience for his loyal customers.
-He plans on using these insights to help him decide whether he should expand the existing customer loyalty program - additionally he needs help to generate some basic datasets so his team can easily inspect the data without needing to use SQL.
+Danny wants to analyze the data to gain insights into his customers’ behavior, such as:
+Their visiting patterns
+How much they have spent overall
+Which menu items are the most popular
+
+By answering these questions, Danny hopes to:
+Build stronger relationships with his loyal customers through personalized experiences.
+Decide whether to expand the customer loyalty program.
+Generate easy-to-use datasets for his team so they don’t always rely on SQL for quick analysis.
+
+## Dataset
+
+The case study is centered around three tables:
+
+- sales – Records of customer orders
+- menu – Menu items and their prices
+- members – Customers who joined the loyalty program
 
 ## Entity Relationship Diagram
 
