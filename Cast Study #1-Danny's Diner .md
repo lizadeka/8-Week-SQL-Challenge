@@ -23,9 +23,13 @@ The case study is centered around three tables:
 - menu – Menu items and their prices
 - members – Customers who joined the loyalty program
 
+---
+
 ## Entity Relationship Diagram
 
 <img width="728" height="380" alt="image" src="https://github.com/user-attachments/assets/bbe63ba3-17b8-4d90-a0ec-2eddb0ee133b" />
+
+---
 
 ## Case Study Questions and Answers
 
