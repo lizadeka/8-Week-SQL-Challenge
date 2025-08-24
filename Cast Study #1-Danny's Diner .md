@@ -47,4 +47,14 @@ The case study is centered around three tables:
 
 <img width="206" height="95" alt="image" src="https://github.com/user-attachments/assets/41ab9713-9dee-46f9-85a1-d22d95a652d5" />
 
-
+```sql
+select * from(
+select s.customer_id, 
+		m.product_name,
+        s.order_date,
+        rank() over(partition by s.customer_id order by s.order_date) as rank_1
+from sales s
+join menu m on m.product_id = s.product_id
+) as temp
+ where rank_1 = 1
+;
