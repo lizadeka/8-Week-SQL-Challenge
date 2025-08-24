@@ -1,83 +1,50 @@
-# 8-Week-SQL-Challenge
-🚀 My solutions to the 8 Week SQL Challenge – SQL queries for real-world business problems
+# 🍜 8-Week-SQL-Challenge
+
+ 🚀 My solutions to the 8 Week SQL Challenge – SQL queries for real-world business problems
 
 This repository contains my solutions to the **[8 Weeks SQL Challenge](https://8weeksqlchallenge.com/)** by Danny Ma.  
-The challenge consists of **8 case studies**, each designed to improve SQL problem-solving and analytical skills using real-world business scenarios.  
+This challenge consists of 8 case studies designed to improve SQL problem-solving and analytical skills.  
+---
+
+Each case study explores real-world business scenarios and helps practice concepts like:  
+- Data exploration  
+- Joins & aggregations  
+- Window functions  
+- Subqueries & CTEs  
+- Temporary tables & views  
+- Advanced SQL concepts  
 
 ---
 
-## 📂 Case Studies  
+## 📂 Repository Structure
 
-### 📌 Case Study #1 - Danny’s Diner  
-**Business Context**: A Japanese restaurant wants to understand customer visiting patterns, spending habits, and membership program impact.
-**Concepts Covered**: Joins, Aggregations, Window Functions, CTEs, Date Functions  
-- Analyze customer purchase behavior  
-- Calculate loyalty points  
-- Track member activity
+- **Case Study #1 - Danny's Diner**  
+  [Case Study #1 - Danny's Diner](Case%20Study%20%231%20-%20Danny's%20Diner/README.md)
 
----
+- **Case Study #2 - Pizza Runner**  
+  Covers delivery analysis, performance metrics, and operational insights.  
 
-### 📌 Case Study #2 - Pizza Runner  
-**Business Context**: An online pizza delivery startup wants to clean data, analyze orders, and evaluate delivery performance.
-**Concepts Covered**: Data Cleaning, String Manipulation, Recursive CTEs, Aggregations  
-- Clean messy order & delivery data  
-- Track pizza orders and deliveries  
-- Analyze runner performance  
+- **Case Study #3 - Foodie-Fi**  
+  Subscription-based business model analysis.  
+
+- *(More case studies will be added as I progress)*  
 
 ---
 
-### 📌 Case Study #3 - Foodie-Fi  
-**Concepts Covered**: Window Functions, Case Statements, Date/Time Analysis  
-- Subscription model analytics  
-- Customer churn & plan changes  
-- Lifetime value  
+## 🚀 Purpose of this Repository
+- To showcase my SQL learning journey.  
+- To build a portfolio of SQL solutions.  
+- To practice real-world business case studies.  
 
 ---
 
-### 📌 Case Study #4 - Data Bank  
-**Concepts Covered**: Recursive CTEs, Joins, Ranking, Percentiles  
-- Analyze customer balances  
-- Track transactions over time  
-- Ranking customers by growth  
-
----
-
-### 📌 Case Study #5 - Data Mart  
-**Concepts Covered**: Date Manipulation, Aggregations, Window Functions  
-- Weekly sales analysis  
-- Revenue and profit breakdown  
-- Percentage change across periods  
-
----
-
-### 📌 Case Study #6 - Clique Bait  
-**Concepts Covered**: Funnel Analysis, Joins, Session Tracking, CTEs  
-- Website clickstream analysis  
-- User journey funnels  
-- Campaign effectiveness  
-
----
-
-### 📌 Case Study #7 - Balanced Tree Clothing Co.  
-**Concepts Covered**: Inventory Management, Joins, Aggregations, Profitability Analysis  
-- Product sales analysis  
-- Stock availability  
-- Revenue per category  
-
----
-
-### 📌 Case Study #8 - Fresh Segments  
-**Concepts Covered**: Customer Segmentation, Data Transformation, Joins, CTEs  
-- Customer persona analysis  
-- Segment-based targeting  
-- Marketing effectiveness  
-
----
-
-## 🚀 Tech Stack  
+## 🛠️ Tech Stack
 - **SQL** (MySQL / PostgreSQL)  
-- **Data Cleaning & Analysis**  
-- **Business Analytics**  
+- GitHub for version control  
+
+---
+
+✨ This repository is part of my data analytics & SQL learning journey.  
 
 ---
 
