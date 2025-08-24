@@ -32,7 +32,9 @@ The case study is centered around three tables:
 - What is the total amount each customer spent at the restaurant?
 
 <img width="502" height="142" alt="image" src="https://github.com/user-attachments/assets/096d8ff2-5a2c-4cf5-99f4-d8e2f880b026" />
--- 
+
+<br>
+
 <img width="201" height="93" alt="image" src="https://github.com/user-attachments/assets/8c9e61a2-d531-4023-b7be-9802069cf104" />
 
 
