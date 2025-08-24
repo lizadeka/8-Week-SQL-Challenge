@@ -19,7 +19,7 @@ Each case study explores real-world business scenarios and helps practice concep
 
 ## 📂 Repository Structure
 
-- [Case Study #1 - Danny's Diner](Cast%20Study%20%231%20-%20Danny's%20Diner/README.md)
+- [Case Study #1 - Danny's Diner](Case%20Study%20%231-Danny's%20Diner.md)
 
 - *(More case studies will be added as I progress)*  
 
