@@ -9,10 +9,20 @@ The challenge consists of **8 case studies**, each designed to improve SQL probl
 ## 📂 Case Studies  
 
 ### 📌 Case Study #1 - Danny’s Diner  
+**Business Context**: A Japanese restaurant wants to understand customer visiting patterns, spending habits, and membership program impact.
 **Concepts Covered**: Joins, Aggregations, Window Functions, CTEs, Date Functions  
 - Analyze customer purchase behavior  
 - Calculate loyalty points  
-- Track member activity  
+- Track member activity
+
+**Sample Questions**:
+
+- What is the total amount each customer spent at the restaurant?
+- How many days has each customer visited?
+- What was the first item purchased after joining the loyalty program?
+- How many points do members have (with special offers like 2x points on sushi and 2x points in the first week)?
+
+My Solutions →
 
 ---
 
