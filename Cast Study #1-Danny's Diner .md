@@ -46,6 +46,8 @@ The case study is centered around three tables:
 <br>
 
 <img width="206" height="95" alt="image" src="https://github.com/user-attachments/assets/41ab9713-9dee-46f9-85a1-d22d95a652d5" />
+<br>
+-  What was the first item from the menu purchased by each customer?
 
 ```sql
 select * from(
@@ -58,3 +60,6 @@ join menu m on m.product_id = s.product_id
 ) as temp
  where rank_1 = 1
 ;
+
+<img width="367" height="141" alt="image" src="https://github.com/user-attachments/assets/8408cf87-9714-4d8a-979f-caeca9160574" />
+
