@@ -26,3 +26,18 @@ The case study is centered around three tables:
 ## Entity Relationship Diagram
 
 <img width="728" height="380" alt="image" src="https://github.com/user-attachments/assets/bbe63ba3-17b8-4d90-a0ec-2eddb0ee133b" />
+
+## Case Study Questions and Answers
+
+-- 1. What is the total amount each customer spent at the restaurant?
+
+select s.customer_id, sum(m.price) as total_spent
+from sales s
+join menu m on m.product_id = s.product_id
+group by s.customer_id
+;
+
+<img width="201" height="93" alt="image" src="https://github.com/user-attachments/assets/8c9e61a2-d531-4023-b7be-9802069cf104" />
+
+
+
