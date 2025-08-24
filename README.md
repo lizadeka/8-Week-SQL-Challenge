@@ -22,8 +22,6 @@ The challenge consists of **8 case studies**, each designed to improve SQL probl
 - What was the first item purchased after joining the loyalty program?
 - How many points do members have (with special offers like 2x points on sushi and 2x points in the first week)?
 
-My Solutions →
-
 ---
 
 ### 📌 Case Study #2 - Pizza Runner  
