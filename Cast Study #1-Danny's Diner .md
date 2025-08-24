@@ -41,6 +41,7 @@ group by s.customer_id
 
 <img width="201" height="93" alt="image" src="https://github.com/user-attachments/assets/8c9e61a2-d531-4023-b7be-9802069cf104" />
 <br>
+
 - How many days has each customer visited the restaurant?
 
 ```sql
@@ -53,6 +54,7 @@ group by customer_id
 
 <img width="206" height="95" alt="image" src="https://github.com/user-attachments/assets/41ab9713-9dee-46f9-85a1-d22d95a652d5" />
 <br>
+
 - What was the first item from the menu purchased by each customer?
 
 ```sql
@@ -68,6 +70,7 @@ join menu m on m.product_id = s.product_id
 ;
 ```
 <img width="367" height="141" alt="image" src="https://github.com/user-attachments/assets/8408cf87-9714-4d8a-979f-caeca9160574" />
+<br>
 
 - What is the most purchased item on the menu and how many times was it purchased by all customers?
 
@@ -83,6 +86,7 @@ limit 1
 ```
 
 <img width="228" height="61" alt="image" src="https://github.com/user-attachments/assets/51da602c-30ec-4885-ac97-a9357aefe9b8" />
+<br>
 
 - Which item was the most popular for each customer?
 
@@ -105,6 +109,7 @@ where rank_1 = 1
 ```
 
 <img width="320" height="145" alt="image" src="https://github.com/user-attachments/assets/859cb833-7288-45ff-9e15-4d138b0b753a" />
+<br>
 
 - Which item was purchased first by the customer after they became a member?
 
@@ -128,6 +133,7 @@ where first_i = 1
 ```
 
 <img width="240" height="77" alt="image" src="https://github.com/user-attachments/assets/c4eeeede-4ba0-496e-ab6e-d83be87ca402" />
+<br>
 
 - Which item was purchased just before the customer became a member?
 
@@ -151,6 +157,7 @@ where f_item=1
 ;
 ```
 <img width="218" height="111" alt="image" src="https://github.com/user-attachments/assets/d9811d69-9679-4c9d-8416-679b317bcd93" />
+<br>
 
 -  What is the total items and amount spent for each member before they became a member?
 
@@ -170,6 +177,7 @@ select * from before_member;
 ```
 
 <img width="297" height="87" alt="image" src="https://github.com/user-attachments/assets/9933eb4f-2ff7-433c-9584-5ce032f5d10c" />
+<br>
 
 - If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 
@@ -188,6 +196,7 @@ order by points
 ```
 
 <img width="162" height="108" alt="image" src="https://github.com/user-attachments/assets/25dc5ea4-bf61-4933-a1cc-2bd84bbdf2de" />
+<br>
 
 - In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
