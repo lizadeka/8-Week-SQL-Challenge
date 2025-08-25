@@ -1,8 +1,7 @@
 # 🍜 8-Week-SQL-Challenge
 
  🚀 My solutions to the 8 Week SQL Challenge – SQL queries for real-world business problems
-
-This repository contains my solutions to the **[8 Weeks SQL Challenge](https://8weeksqlchallenge.com/)** by Danny Ma.  
+ 
 This challenge consists of 8 case studies designed to improve SQL problem-solving and analytical skills.  
 
 ---
