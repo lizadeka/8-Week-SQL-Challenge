@@ -1,4 +1,5 @@
-<img width="715" height="716" alt="image" src="https://github.com/user-attachments/assets/a7f40169-693c-4042-b09f-990459f1024e" />
+# Case Study #1 - Danny's Diner
+<img width="415" height="416" alt="image" src="https://github.com/user-attachments/assets/a7f40169-693c-4042-b09f-990459f1024e" />
 
 ## 📌 Introduction
 
@@ -29,7 +30,7 @@ The case study is centered around three tables:
 
 ## Entity Relationship Diagram
 
-<img width="728" height="380" alt="image" src="https://github.com/user-attachments/assets/bbe63ba3-17b8-4d90-a0ec-2eddb0ee133b" />
+<img width="428" height="380" alt="image" src="https://github.com/user-attachments/assets/bbe63ba3-17b8-4d90-a0ec-2eddb0ee133b" />
 
 ---
 
