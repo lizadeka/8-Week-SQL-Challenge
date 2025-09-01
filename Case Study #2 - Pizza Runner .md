@@ -217,11 +217,73 @@ from cte
 group by total_pizzas
 ;
 ```
+<img width="217" height="111" alt="image" src="https://github.com/user-attachments/assets/f0c6ba6b-98e0-40ed-8e9b-3c260eef361e" />
 
-    What was the average distance travelled for each customer?
-    What was the difference between the longest and shortest delivery times for all orders?
-    What was the average speed for each runner for each delivery and do you notice any trend for these values?
-    What is the successful delivery percentage for each runner?
+- What was the average distance travelled for each customer?
+
+```
+select co.customer_id,
+		round(avg(replace(ro.distance, 'km', ' ')),0) as avg_distance
+from customer_orders co
+join runner_orders ro on ro.order_id = co.order_id
+where ro.distance <> 'null'
+group by co.customer_id
+;
+```
+<img width="218" height="135" alt="image" src="https://github.com/user-attachments/assets/7de0e943-c207-4f19-9425-1c302c21297b" />
+
+- What was the difference between the longest and shortest delivery times for all orders?
+```
+select 
+    max(cast(REGEXP_REPLACE(duration, '[^0-9]', '') as unsigned)) -
+    min(cast(REGEXP_REPLACE(duration, '[^0-9]', '') as unsigned)) 
+    AS delivery_time_difference
+from runner_orders
+where duration is not null 
+  and duration NOT IN ('NaN', 'null');
+```
+<img width="182" height="67" alt="image" src="https://github.com/user-attachments/assets/56a6e212-bf3d-4465-b477-431d1cc50477" />
+
+- What was the average speed for each runner for each delivery and do you notice any trend for these values?
+```
+SELECT 
+    ro.runner_id,
+    ro.order_id,
+    ROUND(
+        CAST(REGEXP_REPLACE(ro.distance, '[^0-9.]', '') AS DECIMAL(5,2)) / 
+        (CAST(REGEXP_REPLACE(ro.duration, '[^0-9]', '') AS DECIMAL(5,2)) / 60), 
+    2) AS avg_speed_kmph
+FROM runner_orders ro
+WHERE ro.distance IS NOT NULL 
+  AND ro.distance <> 'null'
+  AND ro.duration IS NOT NULL 
+  AND ro.duration <> 'null'
+ORDER BY ro.runner_id, ro.order_id;
+```
+<img width="310" height="212" alt="image" src="https://github.com/user-attachments/assets/aff712af-f1ba-4170-9587-f355c2cfb34d" />
+
+- What is the successful delivery percentage for each runner?
+```
+with cte as
+(select runner_id,
+	count(order_id) as total_deliveries
+from runner_orders
+group by runner_id
+),
+cte1 as
+( select runner_id,
+	count(order_id) as successful_deliveries
+from runner_orders
+where cancellation is null or cancellation in ('NaN', 'null', '')
+group by runner_id
+)
+select c.runner_id, c.total_deliveries, coalesce(c1.successful_deliveries, 0) as successful_deliveries,
+		round((successful_deliveries / total_deliveries) * 100,0) as successful_delivery_percentage
+from cte c
+left join cte1 c1 on c1.runner_id = c.runner_id
+;
+```
+<img width="558" height="112" alt="image" src="https://github.com/user-attachments/assets/abb2eade-d3ae-4b43-a612-6ee988e34a5d" />
 
 
 ## 📌 Key Insights
