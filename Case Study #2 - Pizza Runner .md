@@ -171,4 +171,57 @@ order by dayofweek(order_time)
 
 ### B. Runner and Customer Experience 💁‍♂️🍕
 
+- How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)
+```
+select count(runner_id) as runners,
+		floor(datediff(registration_date, '2021-01-01')/7) + 1 as week
+from runners
+group by week
+;
+```
+<img width="156" height="102" alt="image" src="https://github.com/user-attachments/assets/ffcacefb-521d-48af-b692-61ed68ec84d9" />
+
+- What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?
+```
+with cte as 
+( select
+		ro.runner_id,
+        AVG(TIMESTAMPDIFF(MINUTE, co.order_time, ro.pickup_time)) AS avg_prep_time_minutes
+from runner_orders ro
+join customer_orders co on co.order_id = ro.order_id
+where ro.pickup_time <> 'null'
+group by runner_id
+)
+select runner_id,
+		ROUND(AVG(avg_prep_time_minutes),2) as avg_time_took
+from cte
+group by runner_id;
+```
+<img width="192" height="105" alt="image" src="https://github.com/user-attachments/assets/50a52a7c-8725-4b7f-8dc4-fc03eec94f26" />
+
+- Is there any relationship between the number of pizzas and how long the order takes to prepare?
+```
+with cte as 
+( select
+		co.order_id,
+		count(co.pizza_id) as total_pizzas,
+        MAX(TIMESTAMPDIFF(MINUTE, co.order_time, ro.pickup_time)) AS avg_prep_time_minutes
+from runner_orders ro
+join customer_orders co on co.order_id = ro.order_id
+where ro.pickup_time <> 'null'
+group by co.order_id
+)
+select total_pizzas,
+		ROUND(AVG(avg_prep_time_minutes),0) as avg_prep_time
+from cte
+group by total_pizzas
+;
+```
+
+    What was the average distance travelled for each customer?
+    What was the difference between the longest and shortest delivery times for all orders?
+    What was the average speed for each runner for each delivery and do you notice any trend for these values?
+    What is the successful delivery percentage for each runner?
+
+
 ## 📌 Key Insights
