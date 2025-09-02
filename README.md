@@ -10,7 +10,10 @@ Each case study explores real-world business scenarios and helps practice concep
 - Data exploration  
 - Joins & aggregations  
 - Window functions and Ranking
-- Subqueries & CTEs  
+- Subqueries & CTEs
+- String Manipulation
+- Regular Expression
+- Dealing with null values
 - Temporary tables & views  
 - Case statements and conditional logic
 - Text Functions
