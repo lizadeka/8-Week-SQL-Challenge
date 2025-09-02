@@ -288,29 +288,20 @@ left join cte1 c1 on c1.runner_id = c.runner_id
 
 ## 📌 Key Insights
 
-### Part A: Pizza Metrics & Customer Orders
+### A: Pizza Metrics & Customer Orders
 
 - 🍕 Total Orders – 14 pizzas were ordered across 10 customer orders.
-
 - 🥇 Most Popular Pizza – Meatlovers was the top choice, followed by Vegetarian.
-
 - ⚡ Customization Trends – Almost half of the pizzas (7) were customized with either exclusions or extras, showing customers’ preference for personalization.
-
 - ➕ Most Common Extra – Cheese was the most frequently added extra topping.
-
 - ➖ Most Common Exclusion – Mushrooms were the most commonly removed ingredient.
-
 - 📈 Ordering Patterns – Orders peaked during weekends, especially Saturdays, and were more common in the evening hours.
 
-### Part B: Runner Performance & Delivery Analytics
+### B: Runner Performance & Delivery Analytics
 
 - 📅 Runner Onboarding – Most runners joined during early January 2021, suggesting a focused recruitment period.
-
 - ⏱ Pickup Times – Pickup times varied significantly by runner, reflecting differences in responsiveness and availability.
-
 - 📍 Delivery Distances – Distances covered ranged widely, showing customers were spread across multiple areas.
-
 - 🚀 Delivery Speed – Average speeds varied across runners; some maintained high consistency while others were more irregular.
-
 - ✅ Delivery Success Rate – Over 80% of orders were delivered successfully, with only a few cancellations.
 
